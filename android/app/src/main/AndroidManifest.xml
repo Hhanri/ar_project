@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hanri.arproject.ar_project">
+   <uses-sdk android:minsdkVersion = "24"/>
+   <uses-permission android:name="android.permission.CAMERA"/>
+   <uses-permission android:name="android.hardware.camera.ar"/>
    <application
         android:label="ar_project"
         android:name="${applicationName}"
